@@ -1,6 +1,6 @@
 # My custom set of talon commands.
 
-This repository is a collection of all commands I've came up with commands that I've found useful in my day to day work when working with Talon.
+This repository is a collection of all commands I've came up with; commands that I've found useful in my day to day work when working with Talon.
 
 It also includes changes to default talon commands (for example, the alphabet).
 
