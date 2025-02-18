@@ -4,6 +4,8 @@ This repository is a collection of all commands I've came up with; commands that
 
 It also includes changes to default talon commands (for example, the alphabet).
 
+This commands is meant to be used alongside the [community talon configuration](https://github.com/talonhub/community). It is a work in progress and will be updated as I continue to use it.
+
 I hope you find it useful.
 
 ## About Talon
