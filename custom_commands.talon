@@ -23,16 +23,13 @@ project install: "npm i "
 
 # VSCode related commands
 code template: "`"
-code close tabs: key("super-k w")
+code close tabs: key("super-k w") # Closes all tabs in vscode
 code terminal: key("super-ctrl-t") # Focuses the terminal in vscode
 code comment: key("super-shift-7") # Comments or uncomments the current selection
 
-# Deletes the character in front of the cursor
 # Do not confuse 'delete' with 'backspace'
-front delete: key("delete")
-
-# Deletes the entire word in front of the cursor 
-front delete word: key("alt-del")
+front delete: key("delete") # Deletes the character in front of the cursor
+front delete word: key("alt-del") # Deletes the entire word in front of the cursor 
 
 # Enables and disables rango extension on chrome
 # This command (cmd+shift+up) was set up from chrome://extensions/shortcuts
