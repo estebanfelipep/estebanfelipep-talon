@@ -35,5 +35,5 @@ front delete word: key("alt-del") # Deletes the entire word in front of the curs
 # This command (cmd+shift+up) was set up from chrome://extensions/shortcuts
 rango extension: key("super-shift-up")
 
-# Opens/closes the tools in google chrome
-toggle tools: key("super-alt-i")
+
+toggle tools: key("super-alt-i") # Opens/closes the tools in google chrome
