@@ -24,11 +24,11 @@ project install: "npm i "
 # VSCode related commands
 code template: "`"
 code close tabs: key("super-k w")
-code terminal: key("super-ctrl-t")
-code comment: key("super-shift-7")
+code terminal: key("super-ctrl-t") # Focuses the terminal in vscode
+code comment: key("super-shift-7") # Comments or uncomments the current selection
 
 # Deletes the character in front of the cursor
-# Do not confuse delete with backspace
+# Do not confuse 'delete' with 'backspace'
 front delete: key("delete")
 
 # Deletes the entire word in front of the cursor 
