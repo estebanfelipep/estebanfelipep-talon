@@ -16,6 +16,7 @@ repo restore:"git restore "
 repo fetch: "git fetch"
 repo stash: "git stash "
 repo switch: "git switch "
+repo delete: "git branch -d "
 
 # NPM related commands
 project run: "npm run "
