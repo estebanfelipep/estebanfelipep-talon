@@ -1,5 +1,20 @@
 # The super key refers to the command key on macOS and the windows key on Windows
 
+# General commands
+# -
+# Do not confuse 'delete' with 'backspace'
+# Deletes the character in front of the cursor
+front delete: key("delete")
+# Deletes the entire word in front of the cursor 
+front delete word: key("alt-del")
+
+# Enables and disables rango extension on chrome
+# This command (cmd+shift+up) was set up from chrome://extensions/shortcuts
+rango extension: key("super-shift-up")
+
+# Opens/closes the tools in google chrome
+toggle tools: key("super-alt-i")
+
 # Git related commands
 repo addition:"git add ."
 repo comment:"git commit -m'"
@@ -23,24 +38,10 @@ project run: "npm run "
 project install: "npm i "
 
 # VSCode related commands
-code template: "`"
- # Closes all tabs in vscode
+# -
+# Closes all tabs in vscode
 code close tabs: key("super-k w")
- # Focuses the terminal in vscode
+# Focuses the terminal in vscode. This command is set up from vscode settings (Keyboard Shortcuts -> terminal.focus)
 code terminal: key("super-ctrl-t")
- # Comments or uncomments the current selection
+# Comments or uncomments the current selection
 code comment: key("super-shift-7")
-
-# Do not confuse 'delete' with 'backspace'
- # Deletes the character in front of the cursor
-front delete: key("delete")
- # Deletes the entire word in front of the cursor 
-front delete word: key("alt-del")
-
-# Enables and disables rango extension on chrome
-# This command (cmd+shift+up) was set up from chrome://extensions/shortcuts
-rango extension: key("super-shift-up")
-
-
- # Opens/closes the tools in google chrome
-toggle tools: key("super-alt-i")
