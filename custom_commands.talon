@@ -12,7 +12,7 @@ front delete word: key("alt-del")
 # This command (cmd+shift+up) was set up from chrome://extensions/shortcuts
 rango extension: key("super-shift-up")
 
-# Opens/closes the tools in google chrome
+# Opens/closes the dev tools in google chrome
 toggle tools: key("super-alt-i")
 
 # Git related commands
