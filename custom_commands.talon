@@ -34,8 +34,14 @@ repo switch: "git switch "
 repo delete: "git branch -d "
 
 # NPM related commands
-project run: "npm run "
-project install: "npm i "
+project long run: "npm run "
+project long install: "npm i "
+
+# PNPM related commands
+project run: "pnpm "
+project install: "pnpm i"
+project addition: "pnpm add "
+project development: "pnpm dev"
 
 # VSCode related commands
 # -
